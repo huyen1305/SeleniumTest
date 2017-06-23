@@ -20,29 +20,29 @@ public class CommonFunction {
         driver.get(baseUrl);
 
         //common functions
-//        System.out.println("do some common funtions");
-//        driver.findElement(By.id("fname")).click();
-//        driver.findElement(By.name("fname")).sendKeys("Huyen");
-//        Thread.sleep(5000);
-//        driver.findElement(By.xpath("//*[@value='Bike']")).click();
-//        Thread.sleep(5000);
-//        driver.findElement(By.cssSelector("[value='Car']")).click();
-//        Thread.sleep(5000);
+        System.out.println("do some common funtions");
+        driver.findElement(By.id("fname")).click();
+        driver.findElement(By.name("fname")).sendKeys("Huyen");
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@value='Bike']")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.cssSelector("[value='Car']")).click();
+        Thread.sleep(5000);
 
         //using webElement
-//        WebElement element = driver.findElement(By.linkText("Newer Post"));
-//        element.click();
-//        Thread.sleep(5000);
-//        driver.navigate().back();
-//        Thread.sleep(5000);
-//        Boolean isPresent = driver.findElements(By.className("home-link")).size() > 0;
-//        if(isPresent) {
-//            System.out.println("pass");
-//        }
-//        else {
-//            System.out.println("fail");
-//        }
-//        Thread.sleep(5000);
+        WebElement element = driver.findElement(By.linkText("Newer Post"));
+        element.click();
+        Thread.sleep(5000);
+        driver.navigate().back();
+        Thread.sleep(5000);
+        Boolean isPresent = driver.findElements(By.className("home-link")).size() > 0;
+        if(isPresent) {
+            System.out.println("pass");
+        }
+        else {
+            System.out.println("fail");
+        }
+        Thread.sleep(5000);
 
         //drop down box
         // maximize the browser
@@ -53,8 +53,14 @@ public class CommonFunction {
         orderBy.selectByIndex(1);
         orderBy.selectByValue("Russia");
 
+        //alert window
+        String alertMessage = "";
+        driver.findElement(By.xpath("//*[@value='Show Me Alert']")).click();
+        alertMessage = driver.switchTo().alert().getText();
+        driver.switchTo().alert().accept();
+        System.out.println(alertMessage);
 
-//        close browser
-//        driver.close();
+        //close browser
+        driver.close();
     }
 }
