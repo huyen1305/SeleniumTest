@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb5928c-3f36-4719-825b-5c56b151f449" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myPackage/CommonFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/seleniumTest/myPackage/myClass.class" afterPath="$PROJECT_DIR$/out/production/seleniumTest/myPackage/myClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/CommonFunction.java" afterPath="$PROJECT_DIR$/src/myPackage/CommonFunction.java" />
     </list>
     <ignored path="seleniumTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="CommonFunction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/myPackage/CommonFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="221">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -649,7 +649,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498186023936</updated>
-      <workItem from="1498186029486" duration="9711000" />
+      <workItem from="1498186029486" duration="11196000" />
     </task>
     <task id="LOCAL-00001" summary="add class.java">
       <created>1498189837440</created>
@@ -658,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498189837440</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="02 Common Funtions">
+      <created>1498197405516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498197405516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9711000" />
+    <option name="totallyTimeSpent" value="11196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
@@ -708,7 +715,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add class.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class.java" />
+    <MESSAGE value="02 Common Funtions" />
+    <option name="LAST_COMMIT_MESSAGE" value="02 Common Funtions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -739,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/CommonFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
